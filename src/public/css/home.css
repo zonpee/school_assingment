@@ -1,0 +1,16 @@
+
+.tab {
+    background-color: white;
+    border-bottom: solid #F5F5F5;
+    height: 5%;
+}
+
+.tab ul{
+    display: flex;
+    margin-left: 3%;
+}
+
+.tab ul li{
+    color: #8D8A8A;
+    margin: 0 3%;
+}

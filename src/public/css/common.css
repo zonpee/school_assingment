@@ -1,0 +1,73 @@
+body {
+    height: 100lvh;
+}
+
+a {
+    text-decoration: none;
+}
+
+/***************** ヘッダー *****************/
+header {
+    position: fixed;
+    height: 10%;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    margin-left: 3%;
+}
+
+.title a::before {
+    content: '';
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url(../img/pencil.jpg);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    margin-right: 0.5rem;
+}
+
+.title a {
+    font-size: 1.5rem;
+    color: #8D8A8A;
+}
+
+.menu {
+    min-width: 10%;
+    margin-right: 3%
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu ul li {
+    color: #8D8A8A;
+}
+
+/****************** メイン ******************/
+main {
+    position:fixed;
+    height: 85%;
+    width: 100%;
+    background-color: #F8FBFD;
+    top: 10%;
+}
+
+
+/***************** フッター *****************/
+footer {
+    position: fixed;
+    height: 5%;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
