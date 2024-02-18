@@ -1,4 +1,4 @@
-
+/*************** タブ ***************/
 .tab {
     background-color: white;
     border-bottom: solid #F5F5F5;
@@ -13,4 +13,156 @@
 .tab ul li{
     color: #8D8A8A;
     margin: 0 3%;
+    padding-bottom: 0.5%;
+    cursor: pointer;
+}
+
+.tab ul li.active,
+.tab ul li.hovered {
+    color: orange;
+    font-weight: bold;
+    border-bottom: 5px solid orange;
+}
+
+/*************** ホーム画面 ***************/
+.home-top {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.home-top h1 {
+    font-size: 2rem;
+}
+
+.home-top table {
+    margin: 2rem auto;
+}
+
+.home-top th {
+    background-color:#FFF9C6;
+    padding: 0 1rem;
+}
+
+.home-top .table-record {
+    cursor: pointer;
+}
+
+.home-top td {
+    padding: 0 1rem;
+} 
+.home-top button {
+    color: #FFFFFF;
+    border: 1px solid;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+}
+
+.register-button , .edit-button {
+    background-color: #316CF3;
+}
+
+.delete-button {
+    background-color: #F40000;
+}
+
+
+/*************** テスト画面 ***************/
+.test-top {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.test-top h1 {
+    font-size: 2rem;
+}
+
+.test-top table {
+    margin: 2rem auto;
+}
+
+.test-top th {
+    background-color:#FFF9C6;
+    padding: 0 1rem;
+}
+
+.test-top .table-record {
+    cursor: pointer;
+}
+
+.test-top td {
+    padding: 0 1rem;
+} 
+.test-top button {
+    color: #FFFFFF;
+    border: 1px solid;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+}
+
+.start-button , .clear-button {
+    background-color: #316CF3;
+}
+
+
+
+/*************** レコード画面 ***************/
+.record-top {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.record-top h1 {
+    font-size: 2rem;
+}
+
+.record-top table {
+    margin: 2rem auto;
+}
+
+.record-top th {
+    background-color:#FFF9C6;
+    padding: 0 1rem;
+}
+
+.record-top .table-record {
+    cursor: pointer;
+}
+
+.record-top td {
+    padding: 0 1rem;
+} 
+.record-top button {
+    color: #FFFFFF;
+    border: 1px solid;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+}
+
+.check-button , .back-button {
+    background-color: #316CF3;
+}
+
+/*************** ページ遷移効果 ***************/
+.fade-enter-active , .fade-leave-active {
+    transition: opacity 1s;
+}
+
+.fade-enter , .fade-leave-to {
+    opacity: 0;
+}
+
+.fade-enter-to , .fade-leave {
+    opacity: 1;
+}
+
+
+.red {
+    background-color: #F40000;
+}
+
+.yellow {
+    background-color: #316CF3;
 }
